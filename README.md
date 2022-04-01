@@ -4,7 +4,7 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 
 The files in this repository were used to configure the network depicted below.
 
-![RESOURCE GROUP DIAGRAM](Images/diagram_filename.png)
+![RESOURCE GROUP DIAGRAM](Images/https://app.diagrams.net/#G1CvxOxY6d80TfCaRPWAfoZaEXQOfoJVj7)
 
 
 
