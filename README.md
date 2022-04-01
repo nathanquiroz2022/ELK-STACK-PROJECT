@@ -4,25 +4,25 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 
 The files in this repository were used to configure the network depicted below.
 
-![RESOURCE GROUP DIAGRAM](Images/https://app.diagrams.net/#G1CvxOxY6d80TfCaRPWAfoZaEXQOfoJVj7)
+![RESOURCE GROUP DIAGRAM](https://drive.google.com/file/d/1CvxOxY6d80TfCaRPWAfoZaEXQOfoJVj7/view?usp=sharing)
 
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
 #My filebeat playbook
-  - /etc/ansible/roles/filebeat-playbook.yml
+  - /ELK-STACK-PROJECT/Ansible/filebeat-playbook.yml
 #My metricbeat playbook
-  - /etc/ansible/roles/metricbeat-playbook.yml
+  - /ELK-STACK-PROJECT/Ansible/metricbeat-playbook.yml
 #My filebeat configuration file
-  - /etc/filebeat/filebeat.yml
+  - /ELK-STACK-PROJECT/Ansible/filebeat.yml
 #My metricbeat configuration file
-  - /etc/metricbeat/metricbeat.yml
+  - /ELK-STACK-PROJECT/Ansible/metricbeat.yml
 #My Ansible Configuration file
-  - /etc/ansible/ansible.config
+  - /ELK-STACK-PROJECT/Ansible/ansible.config
 #My first playbook
-  - /etc/ansible/my-playbook.yml
+  - /ELK-STACK-PROJECT/Ansible/my-playbook.yml
 #my Elk installation and VM Configuration 
-  - /etc/ansible/instal-ELK.yml
+  - /ELK-STACK-PROJECT/Ansible/instal-ELK.yml
 
 This document contains the following details:
 - Description of the Topologu
