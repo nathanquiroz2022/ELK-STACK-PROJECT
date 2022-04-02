@@ -3,7 +3,7 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-![RESOURCE GROUP DIAGRAM](https://1drv.ms/w/s!AqQrhCo0x9tgmwN6IpGCOX48T8kx?e=4MW5Jh)
+![RESOURCE GROUP DIAGRAM](Images/https://1drv.ms/w/s!AqQrhCo0x9tgmwN6IpGCOX48T8kx?e=4MW5Jh)
 
 
 
