@@ -209,7 +209,7 @@ Metricbeat will be used to monitor VM stats, per cpu core stats, per filesystem 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-Verify the Public IP address to see if it has changed. What Is My IP?
+Verify the Public IP address to see if it has changed. [What Is My IP](https://www.whatismyip.com/)?
 If changed then update the Security Rules that uses the My Public IPv4
 
 SSH into the control node and follow the steps below:
@@ -226,4 +226,29 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-x
+
+___________________________________________________________________________________________________
+|    COMMAND                                     |        RESULT                                  |
+|________________________________________________|________________________________________________|
+| ssh-keygen                                     | GENERATE A SSH KEY TO SET UP VM's              |
+| sudo cat .ssh/id_rsa.pub                       | VIEW THE SSH PUBLIC KEY                        |
+| ssh sysadmin@JBox-Provisioner IP address       | LOGGING INTO THE JBOX                          |
+| sudo docker ps -a                              | VIEWING ALL THE ACTIVE/UNACTIVE CONTAINERS     |
+| sudo docker start vigilant_bohr                | START UP THE CONTAINER                         |
+| sudo docker attach vigilant_bohr               | SSH TO THE CONTAINER                           |
+| cd /etc/ansible                                | NAVIGATE TO THE ANSIBLE FOLDER                 |
+| nano /etc/ansible/hosts                        | NAVIGATE TO THE HOSTS CONFIG                   |
+| nano /etc/ansible/ansible.cfg                  | NAVIGATE TO THE ANSIBLE CONFIG FILE            |
+| ssh ansible@Web-1 IP address                   | SSH/LOG INTO WEB-1                             |
+| ssh ansible@Web-2 IP address                   | SSH/LOG INTO WEB-2                             |
+| ssh ansible@ELKserver IP address               | SSH/LOG INTO ELKSERVER                         |
+| sudo apt-get update                            | UPDATE ALL PACKAGES                            |
+| sudo apt install docker.io                     | INSTALL DOCKER APPLICATION                     |
+| sudo service docker start                      | START UP DOCKER APPLICATION                    |
+| sudo systemctl status docker                   | CHECK STATUS OF THE DOCKER APPLICATION         |
+| http://ELK_IP_ADDRESS:5601//app/kibana         | NAVIGATE TO THE KIBANA SITE THROUGH PORT 5601  |
+| nano filebeat-config.yml                       | EDIT FILEBEAT-CONFIG FILE                      |
+| nano filebeat-playbook.yml                     | EDIT FILEBEAT PLAYBOOKM                        |
+| nano metricbeat-config.yml                     | EDIT METRICBEAT-CONFIG FILE                    |
+| nano metricbeat-playbook.yml                   | EDIT METRICBEAT PLAYBOOK                       |
+---------------------------------------------------------------------------------------------------
