@@ -184,7 +184,7 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
    - Filebeat 
-     - [Filebeaat_module_status](https://user-images.githubusercontent.com/102634215/161406065-c747293c-e6b6-4d4e-aa97-4090d91dc76a.png)
+      - [Filebeaat_module_status](https://user-images.githubusercontent.com/102634215/161406065-c747293c-e6b6-4d4e-aa97-4090d91dc76a.png)
    - Metricbeat
     - [Metricbeat_module_status](https://user-images.githubusercontent.com/102634215/161406099-ba73d187-b7f2-4b8e-9e25-1fb437778c6d.png)
 
