@@ -3,25 +3,13 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-![RESOURCE GROUP DIAGRAM](Images/https://1drv.ms/w/s!AqQrhCo0x9tgmwN6IpGCOX48T8kx?e=4MW5Jh)
 
-
+![RESOURCE_GROUP](https://user-images.githubusercontent.com/102634215/161407961-9841a08e-5960-44f3-94a9-4586e37be89f.png))
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
-#My filebeat playbook
-  - /ELK-STACK-PROJECT/Ansible/filebeat-playbook.yml
-#My metricbeat playbook
-  - /ELK-STACK-PROJECT/Ansible/metricbeat-playbook.yml
-#My filebeat configuration file
-  - /ELK-STACK-PROJECT/Ansible/filebeat.yml
-#My metricbeat configuration file
-  - /ELK-STACK-PROJECT/Ansible/metricbeat.yml
-#My Ansible Configuration file
-  - /ELK-STACK-PROJECT/Ansible/ansible.config
-#My first playbook
-  - /ELK-STACK-PROJECT/Ansible/my-playbook.yml
-#my Elk installation and VM Configuration 
-  - /ELK-STACK-PROJECT/Ansible/instal-ELK.yml
+##
+ 
+[Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
 
 This document contains the following details:
 - Description of the Topology
@@ -176,7 +164,12 @@ Published ports 5044, 5601 and 9200 were made available
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+<<<<<<< HEAD
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
+=======
+![Diagram_Images_Docker_ps_output_ELKserver](https://user-images.githubusercontent.com/102634215/161405785-640a83ac-6232-4a62-a8a0-94d5b0a9af38.PNG)
+
+>>>>>>> 07de5194ac0f84128639d9ba26bcbc5b9b9019ba
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -188,9 +181,9 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
    Filebeat 
-   [paste screenshot of the image of filebeat status]
+   ![image](https://user-images.githubusercontent.com/102634215/161406065-c747293c-e6b6-4d4e-aa97-4090d91dc76a.png)
    Metricbeat
-   [paste screenshot of the image of the metribeat status]
+   ![image](https://user-images.githubusercontent.com/102634215/161406099-ba73d187-b7f2-4b8e-9e25-1fb437778c6d.png)
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
@@ -219,6 +212,9 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - _Which URL do you navigate to in order to check that the ELK server is running?
+- http://[your.VM.IP]:5601/app/kibana
+- ![image](https://user-images.githubusercontent.com/102634215/161406015-cf3fb6eb-1d3a-4f26-bd8f-fa97b6e5726b.png)
+
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 x
