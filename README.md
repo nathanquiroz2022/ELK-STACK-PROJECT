@@ -11,6 +11,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
  
 - [Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
 - [Metricbeat](https://1drv.ms/u/s!AqQrhCo0x9tgnh7iUAkj3ZOFKQ9s?e=3hxEsK)
+- [ELK-server](https://1drv.ms/u/s!AqQrhCo0x9tgniDqbQK0K1wnJhW1?e=bork6Q)
+- [my-playbook](https://1drv.ms/u/s!AqQrhCo0x9tgniFhLR7zpeKXtM7V?e=VH8o00)
+- [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
+- [Filebeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnidftWsF6fr-hjoT?e=9ZWo8G)
 
 This document contains the following details:
 - Description of the Topology
