@@ -229,7 +229,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 ___________________________________________________________________________________________________
 |    COMMAND                                     |        RESULT                                  |
-|________________________________________________|________________________________________________|
+|------------------------------------------------|------------------------------------------------||
 | ssh-keygen                                     | GENERATE A SSH KEY TO SET UP VM's              |
 | sudo cat .ssh/id_rsa.pub                       | VIEW THE SSH PUBLIC KEY                        |
 | ssh sysadmin@JBox-Provisioner IP address       | LOGGING INTO THE JBOX                          |
