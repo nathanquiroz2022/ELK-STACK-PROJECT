@@ -3,8 +3,8 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-![RESOURCE GROUP DIAGRAM](Images/https://1drv.ms/w/s!AqQrhCo0x9tgmwN6IpGCOX48T8kx?e=4MW5Jh)
 
+![RESOURCE_GROUP](https://user-images.githubusercontent.com/102634215/161405817-15e240c8-45b6-43fb-b122-7da6720fe838.png)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
