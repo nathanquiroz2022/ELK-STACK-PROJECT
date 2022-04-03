@@ -9,7 +9,12 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
 ##
  
-[Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
+- [Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
+- [Metricbeat](https://1drv.ms/u/s!AqQrhCo0x9tgnh7iUAkj3ZOFKQ9s?e=3hxEsK)
+- [ELK-server](https://1drv.ms/u/s!AqQrhCo0x9tgniDqbQK0K1wnJhW1?e=bork6Q)
+- [my-playbook](https://1drv.ms/u/s!AqQrhCo0x9tgniFhLR7zpeKXtM7V?e=VH8o00)
+- [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
+- [Filebeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnidftWsF6fr-hjoT?e=9ZWo8G)
 
 This document contains the following details:
 - Description of the Topology
