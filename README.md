@@ -8,12 +8,10 @@ The files in this repository were used to configure the network depicted below.
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
-..* https://1drv.ms/u/s!AqQrhCo0x9tgnh7iUAkj3ZOFKQ9s?e=GZhzLf
-..* https://1drv.ms/u/s!AqQrhCo0x9tgniDqbQK0K1wnJhW1?e=H3HniW
-..* https://1drv.ms/u/s!AqQrhCo0x9tgnh_zZI66RcfuyZG1?e=RA594T
-..* https://1drv.ms/u/s!AqQrhCo0x9tgniFhLR7zpeKXtM7V?e=cqA5ho
-..*
-..*
+..* ![image](https://user-images.githubusercontent.com/102634215/161407018-bec06b1b-1f38-467b-915e-2303baeb1824.png)
+..* ![image](https://user-images.githubusercontent.com/102634215/161407042-9d4cdeea-2a0b-48ec-bc93-e3d947793ce7.png)
+..* ![image](https://user-images.githubusercontent.com/102634215/161407058-0d96c0e6-d95e-4211-9bd9-92714b630ca0.png)
+..* ![image](https://user-images.githubusercontent.com/102634215/161407073-593bd077-a31e-427d-b0d9-fbd221bc09f3.png)
 
 This document contains the following details:
 - Description of the Topology
