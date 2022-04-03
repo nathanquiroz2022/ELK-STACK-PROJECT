@@ -10,6 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 ##
  
 - [Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
+- [Metricbeat]https://1drv.ms/u/s!AqQrhCo0x9tgnh7iUAkj3ZOFKQ9s?e=3hxEsK
 
 This document contains the following details:
 - Description of the Topology
