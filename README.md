@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 ![RESOURCE_GROUP](https://user-images.githubusercontent.com/102634215/161407961-9841a08e-5960-44f3-94a9-4586e37be89f.png))
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
-##
+#PLAYBOOK/CONFIGURATION FILES
  
 - [Filebeat](https://1drv.ms/u/s!AqQrhCo0x9tgniLUIQpJDVrDH0sy?e=gVnxVqm)
 - [Metricbeat](https://1drv.ms/u/s!AqQrhCo0x9tgnh7iUAkj3ZOFKQ9s?e=3hxEsK)
@@ -74,7 +74,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name        | Publicly Accessible | Allowed IP Addresses                              |
 |-------------|---------------------|---------------------------------------------------|
-| Jump Box    | Yes                 | 20.36.35.14 (Workstation IP on ssh 22)            |
+|Jump Box    | Yes                 | 20.36.35.14 (Workstation IP on ssh 22)            |
 |             |                     |                                                   |
 |Web-1        | No                  | 10.0.0.5 on ssh 22                                |
 |             |                     |                                                   |
@@ -87,8 +87,8 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
-  The main advantage of automating configuration with Ansible are as follows: 
+
+  - The main advantage of automating configuration with Ansible are as follows: 
   ADVANTAGES OF ANSIBLE:
 
 	Open Source Tool
@@ -113,7 +113,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+_
 ..* Installs Docker.io on the ELK machine
 ..* Installs Python3-pip
 ..* pip installs docker module
