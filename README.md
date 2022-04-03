@@ -170,7 +170,7 @@ Published ports 5044, 5601 and 9200 were made available
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Images/https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
