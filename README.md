@@ -4,7 +4,7 @@ CYBERSECURITY BOOTCAMP FILES AND SCRIPTS
 
 The files in this repository were used to configure the network depicted below.
 
-![RESOURCE_GROUP](https://1drv.ms/u/s!AqQrhCo0x9tgniL9-1_wg1oZ7PvE?e=CTB5Cn)
+[RESOURCE_GROUP](https://1drv.ms/u/s!AqQrhCo0x9tgniL9-1_wg1oZ7PvE?e=CTB5Cn)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMLfile may be used to install only certain pieces of it, such as Filebeat.
 ##
