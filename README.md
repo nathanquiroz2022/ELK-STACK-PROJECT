@@ -45,13 +45,13 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway     | 10.0.0.4       | Linux            |
 |          |             | 20.36.35.14    |                  |
 |          |             |                |                  | 
-| DVWA 1   |UbuntuServer | 10.0.0.5       | Linux            |
+| Web-1    |UbuntuServer | 10.0.0.5       | Linux            |
 |          |             | 20.213.236.135 |                  |  
 |          |             |                |                  |
-| DVWA 2   |Webserver    | 10.0.0.6       | Linux            |
+| Web-2    |Webserver    | 10.0.0.6       | Linux            |
 |          |             | 20.213.236.138 |                  |
 |          |             |                |                  | 
-| ELK      | MONITOR     | 10.1.0.5       | Linux            |
+| elkvm    | MONITOR     | 10.1.0.5       | Linux            |
 |          |             | 20.53.225.227  |                  | 
 |          |             |                |                  |
 ______________________________________________________________ 
@@ -74,7 +74,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name        | Publicly Accessible | Allowed IP Addresses                              |
 |-------------|---------------------|---------------------------------------------------|
-|Jump Box    | Yes                 | 20.36.35.14 (Workstation IP on ssh 22)            |
+|Jump Box     | Yes                 | 20.36.35.14 (Workstation IP on ssh 22)            |
 |             |                     |                                                   |
 |Web-1        | No                  | 10.0.0.5 on ssh 22                                |
 |             |                     |                                                   |
