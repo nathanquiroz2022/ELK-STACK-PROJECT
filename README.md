@@ -173,8 +173,7 @@ The playbook implements the following tasks:
          -  5601:5601
          -  9200:9200
          -  5044:5044   
-           
-Specify a different group of machines:
+          
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -183,6 +182,7 @@ The following screenshot displays the result of running `docker ps` after succes
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
 =======
 ![Diagram_Images_Docker_ps_output_ELKserver](https://user-images.githubusercontent.com/102634215/161405785-640a83ac-6232-4a62-a8a0-94d5b0a9af38.PNG)
+[jbox](https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
 
 >>>>>>> 07de5194ac0f84128639d9ba26bcbc5b9b9019ba
 
