@@ -65,9 +65,9 @@ Only the jumpbox provisioner machine can accept connections from the Internet. A
 
 Machines within the network can only be accessed by workstation and jumpbox provisioner through SSH.
 - Which machine did you allow to access your ELK VM? What was its IP address?
-  Jumpbox Provisioner IP 10.1.0.5 via ssh port 22
+   - Jumpbox Provisioner IP 10.1.0.5 via ssh port 22
 - What was its IP address?
-  Workstation My Public IP via port TCP 5601
+   - Workstation My Public IP via port TCP 5601
 
 
 A summary of the access policies in place can be found in the table below.
