@@ -205,7 +205,7 @@ We have installed the following Beats on these machines:
    - Filebeat 
    - - [Filebeaat_module_status](https://user-images.githubusercontent.com/102634215/161406065-c747293c-e6b6-4d4e-aa97-4090d91dc76a.png)
    - Metricbeat
-         - [Metricbeat_module_status](https://user-images.githubusercontent.com/102634215/161406099-ba73d187-b7f2-4b8e-9e25-1fb437778c6d.png)
+   - 	- [Metricbeat_module_status](https://user-images.githubusercontent.com/102634215/161406099-ba73d187-b7f2-4b8e-9e25-1fb437778c6d.png)
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
