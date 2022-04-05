@@ -254,13 +254,10 @@ Download Filebeat playbook usng this command:
        hosts: ["localhost:9200"]
        username: "elastic"
        "changeme" # TODO: Change this to the password you set
-      
-
-#### Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
-#### This requires a Kibana endpoint configuration.
-#### setup.kibana:
-  host: "10.0.0.5:5601" 
-#### TODO: Change this to the IP address of your ELK server
+       Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+       This requires a Kibana endpoint configuration.
+       setup.kibana:
+        host: "10.0.0.5:5601" #### TODO: Change this to the IP address of your ELK server
 
 Run the playbook using this command ansible-playbook filebeat-playbook.yml and navigate to Kibana > Logs : Add log data > System logs (DEB) > 5:Module Status > Check Incoming data on Kibana to check that the installation worked as expected.
 
