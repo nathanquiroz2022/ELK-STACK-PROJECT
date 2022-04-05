@@ -121,6 +121,15 @@ Specify a different group of machines:
            hosts: elk
            become: true
            tasks:
+
+- Install Docker.io
+     -   
+         - name: Install docker.io
+           apt:
+           update_cache: yes
+           force_apt_get: yes
+           name: docker.io
+           state: present
      
 - Installs Python3-pip
      - 
@@ -129,15 +138,6 @@ Specify a different group of machines:
            force_apt_get: yes 
            name: python3-pip 
            state: present 
-     
- - Install Docker.io
-     -   
-         - name: Install docker.io
-           apt:
-           update_cache: yes
-           force_apt_get: yes
-           name: docker.io
-           state: present
      
 - Use pip module (It will default to pip3)
      -  
