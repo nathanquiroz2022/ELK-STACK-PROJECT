@@ -182,6 +182,17 @@ ELK SERVER
 ### JBOX:
 (![image](https://user-images.githubusercontent.com/102634215/161841311-582a80ae-e450-499d-99be-cf21dc84b076.png)
 
+### ELK-SERVER
+
+![image](https://user-images.githubusercontent.com/102634215/161841965-5fb6b5d4-62b6-41c8-bf69-f10e3afc79dc.png)
+
+### WEB-1
+
+![image](https://user-images.githubusercontent.com/102634215/161843083-df660a43-283e-4c23-9324-d894fc096563.png)
+
+### WEB-2
+
+![image](https://user-images.githubusercontent.com/102634215/161843283-107179f0-8c82-4b1f-991e-ba47aec45408.png)
 
 
 =======
