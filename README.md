@@ -242,14 +242,14 @@ Download Filebeat playbook usng this command:
 - curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-     config.yml
 - Copy the Filebeat Config file to /etc/ansible
 - Update the filebeat-config.yml file to include the ELK private IP 10.2.0.4 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
-
+###
 output.elasticsearch:
-  # Boolean flag to enable or disable the output module.
+  ## Boolean flag to enable or disable the output module.
   #enabled: true
 
-  # Array of hosts to connect to.
-  # Scheme and port can be left out and will be set to the default (http and 9200)
-  # In case you specify and additional path, the scheme is required: http://localhost:9200/path
+  ## Array of hosts to connect to.
+  ## Scheme and port can be left out and will be set to the default (http and 9200)
+   In case you specify and additional path, the scheme is required: http://localhost:9200/path
   # IPv6 addresses should always be defined as: https://[2001:db8::1]:9200
   hosts: ["localhost:9200"]
   username: "elastic"
