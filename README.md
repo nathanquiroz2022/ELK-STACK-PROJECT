@@ -61,7 +61,7 @@ ______________________________________________________________
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jumpbox provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 172.17.0.1
+- Workstation Public IP ---through---> TCP Port 5601
 
 Machines within the network can only be accessed by workstation and jumpbox provisioner through SSH.
 - Which machine did you allow to access your ELK VM? What was its IP address?
