@@ -120,7 +120,7 @@ The playbook implements the following tasks:
            hosts: elk;
            become: true;
            tasks:;
-         
+#####       
 - Installs Python3-pip
          - name: Install python3-pip
            apt:
@@ -128,8 +128,23 @@ The playbook implements the following tasks:
            name: python3-pip
            state: present
 
+####
+  Install Docker.io
+  name: Install docker.io
+    apt:
+      update_cache: yes
+      force_apt_get: yes
+      name: docker.io
+      state: present
+#####     
+Use pip module (It will default to pip3)
+  - name: Install Docker module
+    pip:
+      name: docker
+      state: present
+      `docker`, which is the Docker Python pip module.      
+           
 
-- pip installs docker module
 
 - Uses sysctl to increase System Virtual Memory
 
@@ -140,20 +155,6 @@ The playbook implements the following tasks:
 Docker; download image; etc.
 Specify a different group of machines:
 
-
-Install Docker.io
-  name: Install docker.io
-    apt:
-      update_cache: yes
-      force_apt_get: yes
-      name: docker.io
-      state: present
-Install Python-pip
-  - name: Install python3-pip
-    apt:
-      force_apt_get: yes
-      name: python3-pip
-      state: present
 
     # Use pip module (It will default to pip3)
   - name: Install Docker module
