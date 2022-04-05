@@ -178,9 +178,9 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ###ELK SERVER
-!(https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
-###JBOX
-(https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
+![ELK_SERVER](https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
+###
+[JBOX](https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
 [jbox](https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
 
 
