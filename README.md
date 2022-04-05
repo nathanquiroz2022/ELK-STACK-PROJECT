@@ -178,10 +178,11 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-<<<<<<< HEAD
 ![ELK_Sewrver](Images/https://1drv.ms/u/s!AqQrhCo0x9tgnWVn9rcJqmRB3Fh7?e=cK54lM)
+![jbox](https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
+
 =======
-![ELKserver](https://user-images.githubusercontent.com/102634215/161405785-640a83ac-6232-4a62-a8a0-94d5b0a9af38.PNG)
+
 ![jbox](https://1drv.ms/u/s!AqQrhCo0x9tgnWTvTd2qYt_mFGOc?e=OmIq5X)
 
 >>>>>>> 07de5194ac0f84128639d9ba26bcbc5b9b9019ba
