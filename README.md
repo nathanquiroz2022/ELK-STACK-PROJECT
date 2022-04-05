@@ -91,23 +91,23 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
   - The main advantage of automating configuration with Ansible are as follows: 
   ADVANTAGES OF ANSIBLE:
 
-	Open Source Tool
-	Ansible is an opensource tool without any paid licence needed and it can be used as free of cost.
+	- Open Source Tool
+	- Ansible is an opensource tool without any paid licence needed and it can be used as free of cost.
 
-	Simple Configuration Management
-	Ansible can manage easily and learn easily. The shell scripts are simple and no need for any other software installed.
+	- Simple Configuration Management
+	- Ansible can manage easily and learn easily. The shell scripts are simple and no need for any other software installed.
 
-	Application Development
-	It can easily deploy multi-tier applications. There is no need to configure applications on every machine, you have to only specify the tasks in the playbook. When we run the playbook, then it will automatically run the tasks in the playbook to each host machine through SSH.
+	- Application Development
+	- It can easily deploy multi-tier applications. There is no need to configure applications on every machine, you have to only specify the tasks in the        playbook. When we run the playbook, then it will automatically run the tasks in the playbook to each host machine through SSH.
 
-	The Playbooks are Written in YAML
-	The playbooks are Ansible configuration files that are written in YAML and use of it makes the Ansible better by configuration and automation tool.
+	- The Playbooks are Written in YAML
+	- The playbooks are Ansible configuration files that are written in YAML and use of it makes the Ansible better by configuration and automation tool.
 
-	No Agents Required
-	There is no need of agents or software when you want to automate with the client system or hosts.
+	- No Agents Required
+	- There is no need of agents or software when you want to automate with the client system or hosts.
 
-	Cloud Provisioning
-	By using Ansible we can cloud platforms and virtualized hosts , network devices etc.
+	- Cloud Provisioning
+	- By using Ansible we can cloud platforms and virtualized hosts , network devices etc.
 
 
 
