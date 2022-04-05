@@ -122,7 +122,7 @@ The playbook implements the following tasks:
            tasks:;
 #####       
 - Installs Python3-pip
-- 
+     - 
          - name: Install python3-pip;
            apt: ;
            force_apt_get: yes ;
@@ -131,6 +131,7 @@ The playbook implements the following tasks:
 
 ####
   Install Docker.io
+  -
   name: Install docker.io
     apt:
       update_cache: yes
