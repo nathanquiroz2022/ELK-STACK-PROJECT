@@ -113,13 +113,17 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 
 The playbook implements the following tasks:
-_
-..* Installs Docker.io on the ELK machine
-..* Installs Python3-pip
-..* pip installs docker module
-..* Uses sysctl to increase System Virtual Memory
-..* Downloads and launches a docker elk container with exposed ports
-..* Enables Docker service on boot
+
+- Installs Docker.io on the ELK machine
+- Installs Python3-pip
+
+- pip installs docker module
+
+- Uses sysctl to increase System Virtual Memory
+
+- Downloads and launches a docker elk container with exposed ports
+
+- Enables Docker service on boot
 
 Docker; download image; etc.
 Specify a different group of machines:
