@@ -129,10 +129,10 @@ Docker; download image; etc.
 Specify a different group of machines:
 
 ---
-  - name: Config elk VM with Docker
-   hosts: elk
-   become: true
-   tasks:
+-  - name: Config elk VM with Docker
+    hosts: elk
+    become: true
+    tasks:
 Install Docker.io
   nam e: Install docker.io
     apt:
