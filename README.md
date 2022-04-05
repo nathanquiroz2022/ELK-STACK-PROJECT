@@ -127,12 +127,12 @@ The playbook implements the following tasks:
 
 Docker; download image; etc.
 Specify a different group of machines:
-  - name: Config elk VM with Docker
+  - -name: Config elk VM with Docker
     hosts: elk
     become: true
     tasks:
 Install Docker.io
-  - name: Install docker.io
+  nam e: Install docker.io
     apt:
       update_cache: yes
       force_apt_get: yes
