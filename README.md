@@ -115,7 +115,18 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 - Installs Docker.io on the ELK machine
+         - name: Config elk VM with Docker
+           hosts: elk
+           become: true
+           tasks:
+         
 - Installs Python3-pip
+         - name: Install python3-pip
+           apt:
+           force_apt_get: yes
+           name: python3-pip
+           state: present
+
 
 - pip installs docker module
 
@@ -128,13 +139,9 @@ The playbook implements the following tasks:
 Docker; download image; etc.
 Specify a different group of machines:
 
----
--  - name: Config elk VM with Docker
-    hosts: elk
-    become: true
-    tasks:
+
 Install Docker.io
-  nam e: Install docker.io
+  name: Install docker.io
     apt:
       update_cache: yes
       force_apt_get: yes
