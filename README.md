@@ -267,6 +267,8 @@ Run the playbook using this command ansible-playbook filebeat-playbook.yml and n
       -  
 - Which URL do you navigate to in order to check that the ELK server is running?
 - http://[20.53.225.227]:5601/app/kibana
+
+
 - ![image](https://user-images.githubusercontent.com/102634215/161406015-cf3fb6eb-1d3a-4f26-bd8f-fa97b6e5726b.png)
 
 
