@@ -113,14 +113,15 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 
 The playbook implements the following tasks:
-#####
+Specify a different group of machines:
+
 - Installs Docker.io on the ELK machine
-      - 
+     - 
          - name: Config elk VM with Docker
            hosts: elk
            become: true
            tasks:
-#####       
+     
 - Installs Python3-pip
      - 
          - name: Install python3-pip
@@ -128,58 +129,49 @@ The playbook implements the following tasks:
            force_apt_get: yes 
            name: python3-pip 
            state: present 
-
-####
--  Install Docker.io
-  -
-  name: Install docker.io
-    apt:
-      update_cache: yes
-      force_apt_get: yes
-      name: docker.io
-      state: present
-#####     
--Use pip module (It will default to pip3)
-  - name: Install Docker module
-    pip:
-      name: docker
-      state: present
-      `docker`, which is the Docker Python pip module.      
-####
+     
+ - Install Docker.io
+     -   
+         - name: Install docker.io
+           apt:
+           update_cache: yes
+           force_apt_get: yes
+           name: docker.io
+           state: present
+     
+- Use pip module (It will default to pip3)
+     -  
+         - name: Install Docker module
+           pip:
+           name: docker
+           state: present
+           `docker`, which is the Docker Python pip module.      
+	   
 - Increase Virtual Memory
-      -
-      - name: Use more memory
-        sysctl:
-        name: vm.max_map_count
-        value: '262144'
-        state: present
-        reload: yes
-####
-Download and Launch ELK Docker Container (image sebp/elk)
-     -
- - name: Download and launch a docker elk container
-   docker_container:
-     name: elk
-     image: sebp/elk:761
-     state: started
-     restart_policy: always
-#####
-Published ports 5044, 5601 and 9200 were made available
-     -
-     - published_ports:
-       -  5601:5601
-       -  9200:9200
-       -  5044:5044   
+     -      
+            - name: Use more memory
+              sysctl:
+              name: vm.max_map_count
+              value: '262144'
+              state: present
+              reload: yes
+	  
+- Download and Launch ELK Docker Container (image sebp/elk)
+    -   
+        - name: Download and launch a docker elk container
+          docker_container:
+          name: elk
+          image: sebp/elk:761
+          state: started
+          restart_policy: always
+
+- Published ports 5044, 5601 and 9200 were made available
+     -   
+         - published_ports:
+         -  5601:5601
+         -  9200:9200
+         -  5044:5044   
            
-
-
-- Uses sysctl to increase System Virtual Memory
-
-- Downloads and launches a docker elk container with exposed ports
-
-- Enables Docker service on boot
-
-Docker; download image; etc.
 Specify a different group of machines:
 
 
