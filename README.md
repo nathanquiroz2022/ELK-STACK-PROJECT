@@ -245,7 +245,6 @@ Download Filebeat playbook usng this command:
 - Update the filebeat-config.yml file to include the ELK private IP 10.2.0.4 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
 
 -----------------------------------------------------------------------------
-===================================================================================================
 - 
 ## Config-File
 -       output.elasticsearch:
