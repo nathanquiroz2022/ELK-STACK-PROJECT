@@ -244,9 +244,9 @@ Download Filebeat playbook usng this command:
 - Copy the - [Filebeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnidftWsF6fr-hjoT?e=9ZWo8G) Config file to /etc/ansible
 - Update the filebeat-config.yml file to include the ELK private IP 10.2.0.4 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
 
------------------------------------------------------------------------------
+
  
-## 
+### Configuration 
 -       output.elasticsearch:
         Boolean flag to enable or disable the output module.
         enabled: true
@@ -274,6 +274,7 @@ Run the playbook using this command ansible-playbook filebeat-playbook.yml and n
 - ![image](https://user-images.githubusercontent.com/102634215/161406015-cf3fb6eb-1d3a-4f26-bd8f-fa97b6e5726b.png)
 
 
+-----------------------------------------------------------------------------
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 
