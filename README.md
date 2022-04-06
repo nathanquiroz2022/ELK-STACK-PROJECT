@@ -289,11 +289,7 @@ Download Filebeat playbook usng this command:
 	#- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
  	This requires a Kibana endpoint configuration.
 	setup.kibana:
- 		host: "10.2.0.4:5601"
-  
-	
-	 ==============================================
-	 
+ 		host: "10.2.0.4:5601"  	 
 	 ============================== Kibana =====================================
         Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
  	This requires a Kibana endpoint configuration.
