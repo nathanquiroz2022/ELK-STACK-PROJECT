@@ -286,8 +286,24 @@ Download Filebeat playbook usng this command:
 	 
 	 
 	 
--       output.elasticsearch:
-        Boolean flag to enable or disable the output module.
+-       #================================== Kibana =====================================
+	#- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+	This requires a Kibana endpoint configuration.
+	setup.kibana:
+ 		host: "10.2.0.4:5601"
+		
+	#-------------------------- Elasticsearch output ------------------------------	
+	output.elasticsearch:
+  	#- TODO: Change the hosts IP address to the IP address of your ELK server
+  	#- TODO: Change password from `changem` to the password you created
+  	hosts: ["10.2.0.4:9200"]
+ 	 username: "elastic"
+ 	 password: "changeme"
+	 
+	 
+	 ===============
+	 
+-               Boolean flag to enable or disable the output module.
         enabled: true
 
        Array of hosts to connect to.
@@ -304,8 +320,8 @@ Download Filebeat playbook usng this command:
 - 	
 	#- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
  	This requires a Kibana endpoint configuration.
-	etup.kibana:
- 	host: "10.2.0.4:5601"
+	setup.kibana:
+ 		host: "10.2.0.4:5601"
   
 	#-------------------------- Elasticsearch output ------------------------------
 	output.elasticsearch:
