@@ -267,7 +267,7 @@ Download Filebeat playbook usng this command:
 #### Download Filebeat playbook usng this command:
 -
 	- Run: curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/metricbeat > /etc/ansible/metricbeat-config.yml
-	### Configuration 
+### Configuration 
 -       #============================== Kibana =====================================
         #- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
  	This requires a Kibana endpoint configuration.
@@ -315,11 +315,6 @@ Download Filebeat playbook usng this command:
  	 username: "elastic"
  	 password: "changeme"
        
-
-- Copy the - [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
-- Update the metricbeat-config.yml file to include the ELK private IP 10.1.0.5 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
-
--   ### Configuration         
 
 - Copy the - [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
 - Update the metricbeat-config.yml file to include the ELK private IP 10.1.0.5 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
