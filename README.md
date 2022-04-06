@@ -246,7 +246,7 @@ Download Filebeat playbook usng this command:
 
 -----------------------------------------------------------------------------
  
-## Config-File
+## 
 -       output.elasticsearch:
         Boolean flag to enable or disable the output module.
         enabled: true
