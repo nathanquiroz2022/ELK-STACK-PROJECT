@@ -289,7 +289,9 @@ Download Filebeat playbook usng this command:
 - Update the metricbeat-config.yml file to include the ELK private IP 10.1.0.5 as below from root@9ddf6fe7eb3f:~# nano /etc/ansible/filebeat-config.yml
 
 
-Run the playbook using this command ansible-playbook filebeat-playbook.yml and navigate to Kibana > Logs : Add log data > System logs (DEB) > 5:Module Status > Check Incoming data on Kibana to check that the installation worked as expected.
+Run the playbook using this command ansible-playbook filebeat-playbook.yml and navigate to Kibana >
+-
+	Logs : Add log data > System logs (DEB) > 5:Module Status > Check Incoming data on Kibana to check that the installation worked as expected.
 
 
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?
