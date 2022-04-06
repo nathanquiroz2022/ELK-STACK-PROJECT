@@ -267,8 +267,22 @@ Download Filebeat playbook usng this command:
 #### Download Filebeat playbook usng this command:
 -
 	- Run: curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/metricbeat > /etc/ansible/metricbeat-config.yml
-	
-- Configuration
+	### Configuration 
+-       output.elasticsearch:
+        Boolean flag to enable or disable the output module.
+        enabled: true
+
+       Array of hosts to connect to.
+       Scheme and port can be left out and will be set to the default (http and 9200)
+       In case you specify and additional path, the scheme is required: http://localhost:9200/path
+       IPv6 addresses should always be defined as: https://[2001:db8::1]:9200
+       hosts: ["localhost:9200"]
+       username: "elastic"
+       "changeme" # TODO: Change this to the password you set
+       Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+       This requires a Kibana endpoint configuration.
+       setup.kibana:
+        host: "10.0.0.5:5601" #### TODO: Change this to the IP address of your ELK server
 - 	#============================== Kibana =====================================
 	#- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
  	This requires a Kibana endpoint configuration.
