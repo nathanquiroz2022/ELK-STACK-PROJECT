@@ -330,6 +330,21 @@ Download Filebeat playbook usng this command:
   	hosts: ["10.2.0.4:9200"]
  	 username: "elastic"
  	 password: "changeme"
+	 ==============================================
+	 
+	 #============================== Kibana =====================================
+        #- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+ 	This requires a Kibana endpoint configuration.
+	etup.kibana:
+ 	host: "10.2.0.4:5601"
+  
+	#-------------------------- Elasticsearch output ------------------------------
+	output.elasticsearch:
+  	#- TODO: Change the hosts IP address to the IP address of your ELK server
+  	#- TODO: Change password from `changem` to the password you created
+  	hosts: ["10.2.0.4:9200"]
+ 	 username: "elastic"
+ 	 password: "changeme"
        
 
 - Copy the - [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
