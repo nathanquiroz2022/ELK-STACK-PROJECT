@@ -270,39 +270,21 @@ Download Filebeat playbook usng this command:
 ### Configuration 
 
 	 ===============
-	 
--               Boolean flag to enable or disable the output module.
-        enabled: true
-
-       Array of hosts to connect to.
-       Scheme and port can be left out and will be set to the default (http and 9200)
-       In case you specify and additional path, the scheme is required: http://localhost:9200/path
-       IPv6 addresses should always be defined as: https://[2001:db8::1]:9200
-       hosts: ["localhost:9200"]
-       username: "elastic"
-       "changeme" # TODO: Change this to the password you set
-       Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
-       This requires a Kibana endpoint configuration.
-       setup.kibana:
-        host: "10.0.0.5:5601" #### TODO: Change this to the IP address of your ELK server
-- 	
-	#- Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
- 	This requires a Kibana endpoint configuration.
-	setup.kibana:
- 		host: "10.2.0.4:5601"  	 
-	 ============================== Kibana =====================================
-        Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
- 	This requires a Kibana endpoint configuration.
-	etup.kibana:
- 	host: "10.2.0.4:5601"
-  
-	-------------------------- Elasticsearch output ------------------------------
-	output.elasticsearch:
-  	- TODO: Change the hosts IP address to the IP address of your ELK server
-  	- TODO: Change password from `changem` to the password you created
-  	hosts: ["10.2.0.4:9200"]
- 	 username: "elastic"
- 	 password: "changeme"
+- 
+ 		host: "10.2.0.4:5601"
+		============================== Kibana =====================================
+		Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+		This requires a Kibana endpoint configuration.
+		setup.kibana:
+			host: "10.2.0.4:5601" 
+			
+		-------------------------- Elasticsearch output ------------------------------ 
+		output.elasticsearch: 
+		- TODO: Change the hosts IP address to the IP address of your ELK server 
+		- TODO: Change password from `changem` to the password you created 
+		 hosts: ["10.2.0.4:9200"] 
+		 username: "elastic" 
+		 password: "changeme"
        
 
 - Copy the - [Metricbeat-Config](https://1drv.ms/u/s!AqQrhCo0x9tgnjvUliHke9jdrY4a?e=nxHsk0)
